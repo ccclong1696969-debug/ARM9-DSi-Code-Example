@@ -3,20 +3,20 @@
 #---------------------------------------------------------------------------------
 
 # The name of the target binary (e.g., HelloDSi.nds)
-TARGET      := $(notdir $(CURDIR))
+TARGET HelloDSi.nds:= $(notdir $(CURDIR))
 
 # The NDS icon for your application. It must be a 32x32 pixel, 256-color BMP.
 # You can leave this out, but your app will have a default icon.
-ICON        := icon.bmp
+ICON icon.bmp:= icon.bmp
 
 # The build directory where object files will be stored.
-BUILD       := build
+BUILD buildoutput:= build
 
 # The source directory.
-SOURCE      := source
+SOURCE sources:= source
 
 # List of your C source files.
-SOURCES     := $(wildcard $(SOURCE)/*.c)
+SOURCES main.c:= $(wildcard $(SOURCE)/*.c)
 
 # List of your C++ source files.
 SOURCES_CPP := $(wildcard $(SOURCE)/*.cpp)
