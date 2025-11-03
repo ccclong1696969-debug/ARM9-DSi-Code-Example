@@ -6,6 +6,6 @@ Compile using DevKitPro
 
 (C) Copyright 2025, Carter Long
 
-# **CONFIDENTIAL UNTIL PUBLICLY RELEASED**
+# MAIN-BREAKER-SETUP.yml
 
 Licensed under the GNU General Public License Ver. 3.0 Or Later
